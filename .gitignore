@@ -1,2 +1,3 @@
 FireAuth.API/appsettings.json
-FireAuth.API/bin/Debug/net8.0/appsettings.json
+**/bin/
+**/obj/
