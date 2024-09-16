@@ -1,0 +1,11 @@
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Domain/bin/Debug/net8.0/FireAuth.Domain.deps.json
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Domain/bin/Debug/net8.0/FireAuth.Domain.dll
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Domain/bin/Debug/net8.0/FireAuth.Domain.pdb
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Domain/obj/Debug/net8.0/FireAuth.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Domain/obj/Debug/net8.0/FireAuth.Domain.AssemblyInfoInputs.cache
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Domain/obj/Debug/net8.0/FireAuth.Domain.AssemblyInfo.cs
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Domain/obj/Debug/net8.0/FireAuth.Domain.csproj.CoreCompileInputs.cache
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Domain/obj/Debug/net8.0/FireAuth.Domain.dll
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Domain/obj/Debug/net8.0/refint/FireAuth.Domain.dll
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Domain/obj/Debug/net8.0/FireAuth.Domain.pdb
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Domain/obj/Debug/net8.0/ref/FireAuth.Domain.dll

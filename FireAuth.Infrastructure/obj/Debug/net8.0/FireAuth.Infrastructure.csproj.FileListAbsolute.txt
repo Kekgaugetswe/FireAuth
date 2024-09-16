@@ -1,0 +1,15 @@
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/bin/Debug/net8.0/FireAuth.Infrastructure.deps.json
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/bin/Debug/net8.0/FireAuth.Infrastructure.dll
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/bin/Debug/net8.0/FireAuth.Infrastructure.pdb
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/obj/Debug/net8.0/FireAuth.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/obj/Debug/net8.0/FireAuth.Infrastructure.AssemblyInfoInputs.cache
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/obj/Debug/net8.0/FireAuth.Infrastructure.AssemblyInfo.cs
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/obj/Debug/net8.0/FireAuth.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/obj/Debug/net8.0/FireAuth.Infrastructure.dll
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/obj/Debug/net8.0/refint/FireAuth.Infrastructure.dll
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/obj/Debug/net8.0/FireAuth.Infrastructure.pdb
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/obj/Debug/net8.0/ref/FireAuth.Infrastructure.dll
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/bin/Debug/net8.0/FireAuth.Domain.dll
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/bin/Debug/net8.0/FireAuth.Domain.pdb
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/obj/Debug/net8.0/FireAuth.Infrastructure.csproj.AssemblyReference.cache
+/Users/kekgaugetswesebati/Development/Learning/CSharp/FireAuth/FireAuth.Infrastructure/obj/Debug/net8.0/FireAuth.7C125CA1.Up2Date
