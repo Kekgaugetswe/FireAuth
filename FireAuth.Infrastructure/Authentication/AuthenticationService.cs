@@ -5,6 +5,11 @@ namespace FireAuth.Infrastructure.Authentication;
 
 public class AuthenticationService : IAuthenticationService
 {
+    public Task<string> LoginAsync(LoginRequestDto requestDto)
+    {
+        throw new NotImplementedException();
+    }
+
     public async Task<string> RegisterAsync(RegisterRequestDto requestDto)
     {
         var userArgs = new UserRecordArgs
