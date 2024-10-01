@@ -9,7 +9,6 @@ namespace FireAuth.API.Controllers
     [ApiController]
     public class AuthController(IAuthenticationService service) : ControllerBase
     {
-        private readonly IAuthenticationService _service = service;
 
         [HttpPost]
         public async Task<IActionResult> RegisterAsync([FromBody] RegisterRequestDto request)
@@ -18,7 +17,7 @@ namespace FireAuth.API.Controllers
             {
                 return BadRequest(ModelState);
             }
-            var result = await _service.RegisterAsync(request);
+            var result = await service.RegisterAsync(request);
             if (result == null)
             {
                 return BadRequest("Registration failed");
@@ -27,10 +26,32 @@ namespace FireAuth.API.Controllers
 
             var response = new RegisterResponseDto
             {
-                Token= result
+                Token = result
             };
 
             return Ok(response);
+
+        }
+
+        [HttpPost("login")]
+
+        public async Task<IActionResult> Login([FromBody] LoginRequestDto loginRequest)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+
+            }
+            try
+            {
+                var token = await service.LoginAsync(loginRequest);
+                return Ok(new {Token = token});
+            }
+            catch (Exception e)
+            {
+                
+                return Unauthorized(e.Message);
+            }
 
         }
 
