@@ -13,7 +13,8 @@ public class AuthenticationService(IConfiguration configuration, HttpClient http
 
     public async Task<string> LoginAsync(LoginRequestDto requestDto)
     {
-        var firebaseApiKey = _configuration["Authentic:apiKey"];
+        var firebaseApiKey = _configuration["Authentication:apiKey"];
+        var url = $"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={firebaseApiKey}";
 
         var loginRequest = new
         { 
@@ -21,7 +22,7 @@ public class AuthenticationService(IConfiguration configuration, HttpClient http
             password = requestDto.Password,
             returnSecureToken = true
         };
-        var response = await _httpClient.PostAsJsonAsync(firebaseApiKey, loginRequest);
+        var response = await _httpClient.PostAsJsonAsync(url, loginRequest);
 
         if (response.IsSuccessStatusCode)
         {
