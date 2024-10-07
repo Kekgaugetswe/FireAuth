@@ -1,5 +1,4 @@
-using System;
-using FireAuth.Domain.Contracts.DTOs;
+using FireAuth.Shared.Dtos;
 
 namespace FireAuth.Infrastructure.Authentication.FIrebaseProvider;
 

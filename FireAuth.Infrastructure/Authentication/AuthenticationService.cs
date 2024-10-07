@@ -1,6 +1,7 @@
 using System.Net.Http.Json;
-using FireAuth.Domain.Contracts.DTOs;
-using FireAuth.Domain.Contracts.DTOs.Responses;
+using FireAuth.Domain.Contracts.Authentication;
+using FireAuth.Shared.Dtos;
+using FireAuth.Shared.Dtos.Responses;
 using FirebaseAdmin.Auth;
 using Microsoft.Extensions.Configuration;
 
@@ -26,7 +27,7 @@ public class AuthenticationService(IConfiguration configuration, HttpClient http
 
         if (response.IsSuccessStatusCode)
         {
-            var result = await response.Content.ReadFromJsonAsync<FirebaseLoginResponse>();
+            var result = await response.Content.ReadFromJsonAsync<LoginResponseDto>();
 
             
             return result.IdToken;
@@ -42,6 +43,7 @@ public class AuthenticationService(IConfiguration configuration, HttpClient http
         {
             Email = requestDto.Email,
             Password = requestDto.Password,
+            
         };
 
         var userRecord = await FirebaseAuth.DefaultInstance.CreateUserAsync(userArgs);

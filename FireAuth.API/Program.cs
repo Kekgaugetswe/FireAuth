@@ -1,4 +1,6 @@
 using FireAuth.Infrastructure;
+using FireAuth.Shared;
+using FireAuth.Domain;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructure(builder.Configuration, builder.Environment);
+builder.Services.AddDomain();
 builder.Services.AddControllers();
+builder.Services.AddShared();
+
 
 var app = builder.Build();
 

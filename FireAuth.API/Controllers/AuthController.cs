@@ -1,6 +1,6 @@
-using FireAuth.Domain.Contracts.DTOs;
-using FireAuth.Infrastructure.Authentication;
-using Microsoft.AspNetCore.Http;
+using FireAuth.Domain.Contracts.Authentication;
+using FireAuth.Shared.Dtos;
+using FireAuth.Shared.Dtos.Responses;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FireAuth.API.Controllers
@@ -26,7 +26,7 @@ namespace FireAuth.API.Controllers
 
             var response = new RegisterResponseDto
             {
-                Token = result
+                Success= true
             };
 
             return Ok(response);
@@ -47,10 +47,10 @@ namespace FireAuth.API.Controllers
                 var token = await service.LoginAsync(loginRequest);
                 return Ok(new {Token = token});
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
                 
-                return Unauthorized(e.Message);
+                return Unauthorized(ex.Message);
             }
 
         }

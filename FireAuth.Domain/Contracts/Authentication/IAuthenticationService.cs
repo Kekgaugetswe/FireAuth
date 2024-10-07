@@ -1,6 +1,7 @@
-using FireAuth.Domain.Contracts.DTOs;
 
-namespace FireAuth.Infrastructure.Authentication;
+using FireAuth.Shared.Dtos;
+
+namespace FireAuth.Domain.Contracts.Authentication;
 
 public interface IAuthenticationService
 {
